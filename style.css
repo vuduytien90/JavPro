@@ -1,0 +1,162 @@
+body{
+    background-color: #13172a ;
+}
+header{
+    background-color: #1c2038;
+    color: white;
+    height: 50px;
+    font-size: 16px ;
+    display: flex;
+}
+.ms{
+    float: left;
+    margin: auto;
+    font-size: 25px;
+}
+.trd{
+    float: left;
+    padding-left: 300px;
+    margin: auto;
+}
+.trd a{
+    color: #00ffff;
+    margin: auto;
+}
+.content h2{
+    padding: 30px 0 0 130px;
+    color:#00ffff;
+}
+.recently{
+    padding-left: 130px;
+}
+
+.recently div{
+    float: left;
+    margin: auto;
+    width: 260px;
+    align-items: center;
+}
+.recently div:hover{
+    opacity: initial;
+}
+.recently img {
+    border-radius: 5%;
+}
+
+.recently h3{
+    color: white;
+    text-align: center;
+}
+.recently p{
+    color: white;
+    font-size: 90%;
+    text-align: center;
+    padding-top: 0px;
+}
+.recently img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+}
+
+.featured{
+    clear: both;
+    padding-left: 130px;
+}
+.featured div{
+    float: left;
+    margin: auto;
+    width: 260px;
+    align-items: center;
+}
+.featured h2{
+    padding-left: 0px;
+}
+.featured img {
+    border-radius: 5%;
+}
+.featured h3,a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.featured img:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+}
+.next_page{
+    clear: both;
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+.next_page a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.next_page a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+.depacito{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #3ccceb;
+    height: 50px;
+    padding-top: 25px;
+}
+.image{
+    width: auto;
+    height: auto;
+}
+.lyrics{
+    font-family: "Roboto", "Roboto Condensed", "Open Sans", helvetica, sans-serif;
+    font-weight: lighter;
+    color: gainsboro;
+    text-align: center;
+
+}
+.lyrics p{
+    padding-top: 0px;
+    font-size: 90%;
+}
+.lyrics a{
+    font-style: italic;
+    font-size: 90%;
+    font-weight: bold;
+}
+.trending{
+    padding-bottom: 30px;
+}
+footer{
+
+    color: white;
+}
+footer div{
+    width: 25%;
+    float: left;
+}
+footer div h2{
+    color: #3ccceb;
+}
+.station{
+    padding-left: 170px;
+}
+
+
