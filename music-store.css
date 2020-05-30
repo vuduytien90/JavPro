@@ -1,0 +1,122 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+} /*==>tat ca moi phan tu trong website deu nhan thuoc tinh ben trong */
+body{
+    margin: 0;
+    padding: 0;
+    color:#ffffff;
+    background-color: #14182a;
+    font-weight: normal;
+}
+header,section.main,footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto 0 auto; /* top 0 bottom o left auto right auto*/
+}
+.logo{
+    float: left;
+    font-size: 24px;
+    line-height: 28px;
+}
+.ms-top-trend{
+    float: right;
+    line-height: 30px;
+}
+.ms-color{
+    color: #3bc8e7;
+}
+header{
+    background-color: #1b2039;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ms-heading{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.rows{
+    float: left;
+    width: 100%;
+}
+.item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.item h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item p{
+    font-size: 14px;
+    margin: 0;
+}
+.item img{
+    border-radius: 5px;
+}
+.main{
+    margin-top: 50px;
+}
+.paginator{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bar{
+    width: 250px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.bar a{
+    float:left;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+.bar .current{
+    background-color: #000000;
+}
+.bar a:hover{
+    background-color: black;
+    color: white;
+}
+hr{
+    border: none;
+    border-top: 1px solid #fff;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    font-size: 32px;
+}
+.about h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.about h5{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.about p{
+    line-height: 1.5;
+}
+.third{
+    width: 33.33%;
+    float: left;
+}
+footer{
+}
+footer.container{
+}
+
